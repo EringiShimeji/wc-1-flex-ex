@@ -4,3 +4,64 @@
   box-sizing: border-box;
 }
 
+header {
+  padding: 30px 20px;
+  background-color: hotpink;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box1 {
+  margin: 0 10px;
+  height: 70px;
+  flex-basis: 140px;
+  background-color: pink;
+}
+
+.box1:first-child {
+  margin-right: auto;
+}
+
+main {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.box4 {
+  width: 300px;
+  background-color: lightgreen;
+}
+
+.box5 {
+  max-width: 700px;
+  flex-grow: 1;
+  display: flex;
+  background-color: limegreen;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.box2 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: gold;
+}
+
+footer {
+  padding: 20px;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box3 {
+  flex-basis: 45%;
+  max-width: 600px;
+  background-color: aqua;
+  height: 40px;
+  margin: 10px;
+}
